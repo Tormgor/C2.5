@@ -168,11 +168,6 @@ class User(Player):
                 continue
             x, y = int(x), int(y)
 
-           # if 0 > x or x > 10 or 0 > y or y > 10:
-               # print(" Введите цифры от 0 до 10 ! ")
-               # continue
-
-
             return Dot(x - 1, y - 1)
 
 # класс игры
